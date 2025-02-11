@@ -1,0 +1,7 @@
+<% let title = student.name; %>
+<% let content = `
+    <h1>${student.name}</h1>
+    <p>Роль: ${student.role}</p>
+    <a href="/">На головну</a>
+`; %>
+<%- include('layout', { title, content }) %>
